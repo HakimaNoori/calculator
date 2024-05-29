@@ -1,0 +1,61 @@
+.container {
+    width: 400px;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    box-shadow: 40px 25px 40px rgb(24, 35, 46);
+    outline:1px solid #01221e;
+    border-radius:1px;
+}
+
+.screen {
+    height: 100px;
+    line-height: 100px;
+    padding: 0 20px;
+    font-size: 30px;
+    text-align: right;
+    background: #330499;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 100px;
+    height: 80px;
+    border: 0;
+    outline: 0;
+    color: rgb(122, 233, 31);
+    background: #7e0b56;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid rgb(1, 0, 78);
+    border-radius: 4px;
+    box-shadow: -5px -6px 15px #1f0315;
+}
+
+button:active{
+    background: #f90258;
+    transform: translate(2px, 2px);
+}
+
+.color {
+    background: #9eef57;
+    color: #7e0b56;
+    font-weight: bold;
+}
+
+.color:active {
+    background: #79f406;
+    transform: translate(2px, 2px);
+}
+
+.twoCol {
+    width: 200px;
+}
